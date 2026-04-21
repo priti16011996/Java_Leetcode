@@ -1,4 +1,10 @@
-class Solution {
+import java.util.*;
+class palindromeinLinkedList {
+    class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { val = x; }
+    }
     public boolean isPalindrome(ListNode head) {
         if(head == null || head.next == null)
         {
